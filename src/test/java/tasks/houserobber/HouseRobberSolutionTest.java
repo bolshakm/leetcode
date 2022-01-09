@@ -7,9 +7,9 @@ class HouseRobberSolutionTest {
 
 	@Test
 	void getMaxSumVar1() {
-		int[] arr = {17, 15, 6, 7, 2, 4, 5, 8, 20, 22, 20};
+		int[] arr = {17, 15, 6, 7, 2, 4, 5, 8, 20, 22, 20, 10};
 
-		Assertions.assertEquals(61, HouseRobberSolution.getMaxSum(arr));
+		Assertions.assertEquals(80, HouseRobberSolution.getMaxSum(arr));
 	}
 
 	@Test
@@ -28,9 +28,9 @@ class HouseRobberSolutionTest {
 
 	@Test
 	void getMaxSumVar4() {
-		int[] arr = {11, 12, 2, 1, 5, 5};
+		int[] arr = {11, 12, 5, 4, 4};
 
-		Assertions.assertEquals(18, HouseRobberSolution.getMaxSum(arr));
+		Assertions.assertEquals(20, HouseRobberSolution.getMaxSum(arr));
 	}
 
 	@Test
